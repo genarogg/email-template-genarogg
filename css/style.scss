@@ -98,3 +98,14 @@ body {
     width: 100%;
   }
 }
+
+
+header{
+    .containerNombre,
+  .containerIsoTipo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 110px;
+  }
+}
