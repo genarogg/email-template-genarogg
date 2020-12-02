@@ -1,69 +1,86 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-attachment: fixed;
-    background-image: url(../img/background.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    background-position: center;
-    display: flex;
-    min-height: 99vh;
-    font-family: Lato, sans-serif;
-  
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /*  estilos para el email */
-  
-  @import "flexboxgrid";
-  @import "normalize";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  .m{
-    margin-right: 12px;
-    margin-left: 7px;
-  }
-  
-  .instagram {
-    border-radius: 5px;
-    color: #c15a3a;
-  }
-  
-  .linkedin {
-    color: #0077b5;
-  }
-  
-  .github {
-    color: #ee216b;
-  }
-  
-  .facebook {
-    color: #3b5998;
-  }
-  
-  .phone {
-    color: #7ad06d;
-  }
-  
-  .localitation{
-    color: #ec5c52;
-  }
-  
-  ::-webkit-scrollbar {
-    width: 7px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #009bdb;
-  }
-  
-  ::selection {
-    background: #009bdb;
-    color: #fff;
-    text-shadow: none;
-  }
+body {
+  background-attachment: fixed;
+  background-image: url(../img/background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center;
+  display: flex;
+  min-height: 99vh;
+  font-family: Lato, sans-serif;
+
+  justify-content: center;
+  align-items: center;
+}
+
+/*  estilos para el email */
+
+@import "flexboxgrid";
+@import "normalize";
+
+.m {
+  margin-right: 12px;
+  margin-left: 7px;
+}
+
+.instagram {
+  border-radius: 5px;
+  color: #c15a3a;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.github {
+  color: #ee216b;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.phone {
+  color: #7ad06d;
+}
+
+.localitation {
+  color: #ec5c52;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #009bdb;
+}
+
+::selection {
+  background: #009bdb;
+  color: #fff;
+  text-shadow: none;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.blue {
+  color: #009bdb;
+}
+
+.ico {
+  font-size: 22px;
+}
+
+.hidden {
+  display: none;
+}
