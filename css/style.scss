@@ -84,3 +84,17 @@ body {
 .hidden {
   display: none;
 }
+
+.container {
+  background: radial-gradient(#12113c, #161125);
+  border-collapse: collapse;
+  display: flex;
+
+  flex-wrap: wrap;
+  max-width: 600px;
+  min-height: 60vh;
+
+  & > .row {
+    width: 100%;
+  }
+}
