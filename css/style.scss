@@ -116,4 +116,19 @@ header{
     color: #fff;
     font-size: 44px;
   }
+
+  img {
+    width: 100px;
+  }
+
+  .cruses {
+    position: relative;
+
+    img {
+      bottom: -62px;
+      left: -94px;
+      position: absolute;
+    }
+  }
 }
+
