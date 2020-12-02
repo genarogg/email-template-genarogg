@@ -23,3 +23,47 @@
   
   @import "flexboxgrid";
   @import "normalize";
+
+  .m{
+    margin-right: 12px;
+    margin-left: 7px;
+  }
+  
+  .instagram {
+    border-radius: 5px;
+    color: #c15a3a;
+  }
+  
+  .linkedin {
+    color: #0077b5;
+  }
+  
+  .github {
+    color: #ee216b;
+  }
+  
+  .facebook {
+    color: #3b5998;
+  }
+  
+  .phone {
+    color: #7ad06d;
+  }
+  
+  .localitation{
+    color: #ec5c52;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #009bdb;
+  }
+  
+  ::selection {
+    background: #009bdb;
+    color: #fff;
+    text-shadow: none;
+  }
