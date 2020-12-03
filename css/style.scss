@@ -145,4 +145,16 @@ main {
   padding: 2px 65px !important;
   padding-bottom: 15px !important;
   flex-direction: column !important;
+
+  h2 {
+    color: #fff;
+    font-size: 22px;
+  }
+
+  p {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    padding-bottom: 10px;
+  }
 }
