@@ -173,4 +173,9 @@ footer {
   padding: 10px 15px !important;
   text-align: center;
   width: 100%;
+
+  * {
+    text-transform: capitalize;
+    text-align: left;
+  }
 }
