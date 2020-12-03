@@ -99,9 +99,8 @@ body {
   }
 }
 
-
-header{
-    .containerNombre,
+header {
+  .containerNombre,
   .containerIsoTipo {
     align-items: center;
     display: flex;
@@ -142,3 +141,8 @@ header{
   }
 }
 
+main {
+  padding: 2px 65px !important;
+  padding-bottom: 15px !important;
+  flex-direction: column !important;
+}
