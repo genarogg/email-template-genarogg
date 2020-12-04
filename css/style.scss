@@ -262,6 +262,10 @@ footer {
         max-width: 32%;
       }
   
-      
+      .col-xs-12.col-sm-4 {
+        -ms-flex-preferred-size: 32%;
+        flex-basis: 32%;
+        max-width: 32%;
+      }
     }
   }
