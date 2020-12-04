@@ -190,4 +190,15 @@ footer {
     width: 120px;
     border: 2px solid #101010;
   }
+  .separador {
+    width: 3px;
+  }
+
+  .borderLeftFooter {
+    background-color: #009bdb;
+    width: 4px;
+    max-width: 4px !important;
+    margin-right: 8px;
+    border-radius: 10px;
+  }
 }
