@@ -201,4 +201,16 @@ footer {
     margin-right: 8px;
     border-radius: 10px;
   }
+
+  .redesSociales {
+    align-items: center;
+    display: flex;
+    height: 70px;
+  }
+
+  & > .col-xs-1 {
+    -ms-flex-preferred-size: 2.333%;
+    flex-basis: 2.333%;
+    max-width: 2.333%;
+  }
 }
