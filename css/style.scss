@@ -312,36 +312,53 @@ footer {
   }
 
   @media screen and (max-width: 580px) {
+  header {
+    .containerNombre,
+    .containerIsoTipo {
+      height: initial;
+      padding-top: 12px;
+    }
+    h2 {
+      font-size: 38px;
+    }
+    .containerIsoTipo {
+      height: initial;
+    }
+
+    img {
+      width: 85px;
+    }
+    .cruses img {
+      bottom: -52px;
+      left: -80px;
+    }
+
+    .triangulosIzq img {
+      bottom: -71px;
+      left: -301px;
+      display: none;
+    }
+  }
+
+  main {
+    padding: 2% 6% !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media screen and (max-width: 460px) {
     header {
-      .containerNombre,
-      .containerIsoTipo {
-        height: initial;
-        padding-top: 12px;
-      }
       h2 {
-        font-size: 38px;
-      }
-      .containerIsoTipo {
-        height: initial;
-      }
-  
-      img {
-        width: 85px;
-      }
-      .cruses img {
-        bottom: -52px;
-        left: -80px;
-      }
-  
-      .triangulosIzq img {
-        bottom: -71px;
-        left: -301px;
-        display: none;
+        font-size: 32px;
       }
     }
+    footer {
+      h3 {
+        margin-left: 7%;
+      }
   
-    main {
-      padding: 2% 6% !important;
-      padding-bottom: 10px !important;
+      .col-xs-7.col-sm-4 > p {
+        margin-left: 8%;
+      }
     }
   }
