@@ -269,3 +269,28 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 550px) and (min-width: 360px) {
+    footer {
+      .col-xs-5.col-sm-3 {
+        -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
+        max-width: 49%;
+      }
+      .col-xs-7.col-sm-4 {
+        -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
+        max-width: 49%;
+      }
+      h3 {
+        margin-left: 30px;
+      }
+  
+      .col-xs-7.col-sm-4 > p {
+        margin-left: 32px;
+      }
+  
+  
+      
+    }
+  }
