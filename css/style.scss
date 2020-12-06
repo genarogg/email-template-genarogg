@@ -392,7 +392,14 @@ footer {
         left: -75px;
       }
     }
+    main {
+      padding-top: 0 !important;
   
+      h2 {
+        padding-top: 12px;
+        padding-left: 4px;
+      }
+    }
   
    
   }
