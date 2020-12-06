@@ -407,3 +407,14 @@ footer {
       }
     }
   }
+
+  @media screen and (max-width: 355px) {
+    header h2 {
+      font-size: 149% !important;
+    }
+  
+    footer .redesSociales ul {
+      width: 100%;
+    }
+  }
+  
