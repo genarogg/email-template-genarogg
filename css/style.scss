@@ -8,6 +8,8 @@
 
 @import "flexboxgrid";
 @import "normalize";
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap');
+
 
 .m {
   margin-right: 12px;
@@ -71,6 +73,7 @@
 }
 
 .container {
+  font-family: "Lato", sans-serif !important;
   background: radial-gradient(#12113c, #161125);
   border-collapse: collapse;
   display: flex;
@@ -99,6 +102,7 @@ header {
   h2 {
     color: #fff;
     font-size: 44px;
+    font-family:'Fjalla One', sans-serif !important;
   }
 
   img {
@@ -130,6 +134,10 @@ main {
   padding: 2px 65px !important;
   padding-bottom: 15px !important;
   flex-direction: column !important;
+
+  *{
+    font-family: "Lato", sans-serif !important;
+  }
 
   h2 {
     color: #fff;
